@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+ 
+}
+
+section{
+    height: 500px;
+}
+.top-section{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.half-width{
+   
+    float: left;
+    width: 40%;
+    margin: 3%;
+    padding: 1%;
+  
+}
+
+.position{
+    position: relative;
+    top:110px;
+    left: 0;
+ 
+}
+
+.half-width img{
+    width: 80%;
+}
+
+.name-highlight{
+    color: #ec4c7a;
+    margin: 20px 0;
+    font-size: 40px;
+  
+}
+
+p{
+    margin-bottom: 25px;
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 100;
+    font-family: 'PT Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+   
+}
+
+.button{
+    background: #ec4c7a;
+    color: white;
+    padding: 6px 8px;
+    border-radius: 3px;
+    font-weight: 300;
+  
+}
